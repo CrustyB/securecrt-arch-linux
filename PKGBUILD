@@ -1,20 +1,20 @@
-# Maintainer : Remy van Elst
-# https://raymii.org
+# Maintainer : CrustyB
+#
 
-pkgname=securecrt
-pkgver=7.3.5
-incrver=903
+pkgname=securecrt-securefx
+pkgver=9.0.2
+incrver=2496
 pkgrel=1
-pkgdesc="Vandyke SecureCRT SSH Client"
+pkgdesc="Vandyke SecureCRT and SecureFX Client Bundle"
 arch=('x86_64' 'i686')
 url="http://www.vandyke.com/products/securecrt/"
 license=('custom')
 
-depends=('openssl' 'glibc' 'qt4')
+depends=('openssl' 'glibc' 'qt5')
 		
-source_x86_64=("${pkgname}-${pkgver}.${incrver}.ubuntu13-64.tar.gz")
+source_x86_64=("${pkgname}-${pkgver}.${incrver}.ubuntu20-64.tar.gz")
 md5sums_x86_64=('SKIP')
-source_i686=("${pkgname}-${pkgver}.${incrver}.ubuntu13.tar.gz")
+source_i686=("${pkgname}-${pkgver}.${incrver}.ubuntu20.tar.gz")
 md5sums_i686=('SKIP')
 options=('!strip')
 
