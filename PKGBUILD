@@ -22,6 +22,7 @@ package() {
        install -Dm 755 ./libClientConfigUiQt.so ${pkgdir}/usr/lib/scrt/libClientConfigUiQt.so
        install -Dm 755 ./libQt5Multimedia.so.5 ${pkgdir}/usr/lib/scrt/libQt5Multimedia.so.5
        install -Dm 755 ./libpython3Qt.so ${pkgdir}/usr/lib/scrt/libpython3Qt.so
+       install -Dm 755 ./libpython39Qt.so ${pkgdir}/usr/lib/scrt/libpython39Qt.so
        install -Dm 755 ./libibusplatforminputcontextplugin.so ${pkgdir}/usr/lib/scrt/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
        install -Dm 755 ./libcomposeplatforminputcontextplugin.so ${pkgdir}/usr/lib/scrt/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so
        install -Dm 755 ./libqxcb.so ${pkgdir}/usr/lib/scrt/plugins/platforms/libqxcb.so
@@ -39,6 +40,7 @@ package() {
        install -Dm 755 ./libClientConfigUiQt.so ${pkgdir}/usr/lib/sfx/libClientConfigUiQt.so
        install -Dm 755 ./libQt5Multimedia.so.5 ${pkgdir}/usr/lib/sfx/libQt5Multimedia.so.5
        install -Dm 755 ./libpython3Qt.so ${pkgdir}/usr/lib/sfx/libpython3Qt.so
+       install -Dm 755 ./libpython39Qt.so ${pkgdir}/usr/lib/sfx/libpython39Qt.so
        install -Dm 755 ./libibusplatforminputcontextplugin.so ${pkgdir}/usr/lib/sfx/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
        install -Dm 755 ./libcomposeplatforminputcontextplugin.so ${pkgdir}/usr/lib/sfx/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so
        install -Dm 755 ./libqxcb.so ${pkgdir}/usr/lib/sfx/plugins/platforms/libqxcb.so
