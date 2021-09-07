@@ -1,6 +1,6 @@
 pkgname=scrt-sfx
-pkgver=9.0.2
-incrver=2496
+pkgver=9.1.0
+incrver=2579
 pkgrel=0
 pkgdesc="Vandyke SecureCRT SSH Client"
 arch=('x86_64')
