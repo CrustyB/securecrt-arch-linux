@@ -5,7 +5,8 @@ The AUR lacks a PKGBUILD for VanDyke SecureCRT. I've written a basic one. Provid
 # Install
 
 Clone the repo, cd in to it and:
-
+    move SecureCRT/SecureFX file into directory
+    aura -S icu66
     makepkg -si
 
 Done.
