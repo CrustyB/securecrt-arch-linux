@@ -1,6 +1,6 @@
 pkgname=scrt-sfx
-pkgver=9.1.1
-incrver=2638
+pkgver=9.2.1
+incrver=2768
 pkgrel=0
 pkgdesc="Vandyke SecureCRT/SecureFX Client Bundle"
 arch=('x86_64')
@@ -12,7 +12,7 @@ depends=('fontconfig' 'freetype2' 'gcc-libs' 'glibc' 'krb5' 'libcups'
 		'qt5-base' 'qt5-multimedia' 'xcb-util-image' 'xcb-util-keysyms' 'xcb-util-renderutil' 'xcb-util-wm' 'zlib' 'icu66')
 options=('!strip' '!emptydirs')
 source=("local://${pkgname}-${pkgver}.${incrver}.ubuntu20-64.tar.gz")
-md5sums=('ee5892d544aee8a264251dcef116e582')
+md5sums=('79e20e2ba2fca89fbc60893853149025')
 
 package() {
        cd "${srcdir}"/${pkgname}-${pkgver}
